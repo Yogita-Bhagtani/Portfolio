@@ -25,6 +25,7 @@ if selected=="Home":
         st.image(image)
     with left_co:
         st.title("Yogita Bhagtani")
+        st.title("Software Developer")
 
 
     
