@@ -6,7 +6,7 @@ st.set_page_config(page_title="Yogita Bhagtani",layout="wide")
 
 st.markdown(
     """
-    <h3 style='text-align;center;'>Yogita Bhagtani<h3>
+    <h3 style='text-align:center;'>Yogita Bhagtani<h3>
     """,
     unsafe_allow_html=True)
 
