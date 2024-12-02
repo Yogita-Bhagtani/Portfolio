@@ -18,7 +18,7 @@ selected=option_menu(
     default_index=0,
 )
 
-#if selected="Home":
-   # image=Image.open(r'C:\Users\DeLL\Documents\Portfolio-streamlit\me.jpeg')
+if selected="Home":
+   image=Image.open(r'data\me.jpeg')
 
 
