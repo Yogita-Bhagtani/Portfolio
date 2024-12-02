@@ -16,7 +16,6 @@ selected=option_menu(
     icons=["house","book","envelope"],
     menu_icon="cast",
     default_index=0,
-    orientation="vertical",
 )
 
 #if selected="Home":
