@@ -4,11 +4,11 @@ from streamlit_option_menu import option_menu
 
 st.set_page_config(page_title="Yogita Bhagtani",layout="wide")
 
-st.markdown(
-    """
-    <h3 style='text-align:center;'>Yogita Bhagtani<h3>
-    """,
-    unsafe_allow_html=True)
+# st.markdown(
+#     """
+#     <h3 style='text-align:center;'>Portfolio<h3>
+#     """,
+#     unsafe_allow_html=True)
 
 selected=option_menu(
     menu_title=None,
@@ -23,6 +23,10 @@ if selected=="Home":
     left_co, cent_co,last_co = st.columns(3)
     with last_co:
         st.image(image)
+    with left_co:
+        st.title("Hi, I am Yogita Bhagtani")
+
+
     
    
     
