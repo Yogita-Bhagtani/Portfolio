@@ -19,7 +19,7 @@ selected=option_menu(
 )
 
 if selected=="Home":
-    image=Image.open(r'data\me.jpeg')
+    image=Image.open(r'data/me.jpeg')
     st.markdown(
     """
     <style>
