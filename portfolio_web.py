@@ -1,0 +1,25 @@
+import streamlit as st
+from PIL import Image
+from streamlit_option_menu import option_menu
+
+st.page_config(page_title="Yogita Bhagtani",layout="wide")
+
+st.markdown(
+    """
+    <h3 style='text-align;center;'>Yogita Bhagtani<h3>
+    """,
+    unsafe_allow_html=True)
+
+selected=option_menu(
+    menu_title=None,
+    options=["Home","Skills","Qualifications"],
+    icons=["house","book","envelope"],
+    menu_icon="cast",
+    deafult_index=0,
+    orientation="horizontal",
+    )
+
+#if selected="Home":
+   # image=Image.open(r'C:\Users\DeLL\Documents\Portfolio-streamlit\me.jpeg')
+
+
