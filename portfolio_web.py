@@ -15,7 +15,7 @@ selected=option_menu(
     options=["Home","Skills","Qualifications"],
     icons=["house","book","envelope"],
     menu_icon="cast",
-    deafult_index=0,
+    default_index=0,
     orientation="horizontal",
 )
 
