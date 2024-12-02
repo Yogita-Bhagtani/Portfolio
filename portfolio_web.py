@@ -21,7 +21,7 @@ selected=option_menu(
 if selected=="Home":
     image=Image.open(r'data/me.jpeg')
     left_co, cent_co,last_co = st.columns(3)
-    with cent_co:
+    with last_co:
         st.image(image)
     
    
