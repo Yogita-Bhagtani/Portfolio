@@ -24,7 +24,7 @@ if selected=="Home":
     with last_co:
         st.image(image)
     with left_co:
-        st.title("Hi, I am Yogita Bhagtani")
+        st.title("Yogita Bhagtani")
 
 
     
