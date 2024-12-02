@@ -33,9 +33,6 @@ if selected=="Home":
     </style>
     """, unsafe_allow_html=True
         )
-
-        "# Center an image when in fullscreen"
-    "Images (and most elements in general) are always aligned to the left"
     
    
     st.image(image)
