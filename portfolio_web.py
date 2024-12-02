@@ -20,21 +20,11 @@ selected=option_menu(
 
 if selected=="Home":
     image=Image.open(r'data/me.jpeg')
-    st.markdown(
-    """
-    <style>
-        button[title^=Exit]+div [data-testid=stImage]{
-            text-align: center;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%;
-        }
-    </style>
-    """, unsafe_allow_html=True
-        )
+    left_co, cent_co,last_co = st.columns(3)
+    with cent_co:
+        st.image(image)
     
    
-    st.image(image)
+    
 
 
