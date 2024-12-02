@@ -18,7 +18,26 @@ selected=option_menu(
     default_index=0,
 )
 
-if selected="Home":
-   image=Image.open(r'data\me.jpeg')
+if selected=="Home":
+    image=Image.open(r'data\me.jpeg')
+    st.markdown(
+    """
+    <style>
+        button[title^=Exit]+div [data-testid=stImage]{
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+    </style>
+    """, unsafe_allow_html=True
+        )
+
+        "# Center an image when in fullscreen"
+    "Images (and most elements in general) are always aligned to the left"
+    
+   
+    st.image(image)
 
 
