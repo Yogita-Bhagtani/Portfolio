@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from streamlit_option_menu import option_menu
 
-st.page_config(page_title="Yogita Bhagtani",layout="wide")
+st.set_page_config(page_title="Yogita Bhagtani",layout="wide")
 
 st.markdown(
     """
